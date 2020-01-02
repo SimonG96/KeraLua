@@ -2,18 +2,17 @@
 <package>
   <metadata>
     <id>KeraLua</id>
-    <version>1.0.16</version>
-    <authors>NLua</authors>
-    <owners>Vinicius Jarina</owners>
-    <licenseUrl>https://github.com/nlua/KeraLua/blob/master/LICENSE</licenseUrl>
-    <projectUrl>https://github.com/nlua/KeraLua</projectUrl>
-    <iconUrl>https://raw.githubusercontent.com/nlua/KeraLua/master/KeraLua.png</iconUrl>
+    <version>1.0.0</version>
+    <authors>Buerkert</authors>
+    <owners>Buerkert</owners>
+    <licenseUrl>https://github.com/Buerkert/KeraLua/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/Buerkert/KeraLua</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/Buerkert/KeraLua/master/KeraLua.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>
       C# Native bindings of Lua 5.3 (compatible with .NET) 
     </description>
-    <releaseNotes>Release: 2bffe65</releaseNotes>
-    <copyright>Copyright © Vinicius Jarina 2019</copyright>
+    <copyright>Copyright © Buerkert 2020</copyright>
     <tags>lua keralua</tags>
   </metadata>
   <files>
