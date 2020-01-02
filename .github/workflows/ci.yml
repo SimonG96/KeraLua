@@ -19,8 +19,13 @@ jobs:
         dotnet-version: 2.2.108
     - name: Build with dotnet
       run: dotnet msbuild KeraLua.sln -p:Configuration=Release
-    - name: Upload artifact
+    - name: Upload KeraLua artifact
       uses: actions/upload-artifact@v1.0.0
       with:
         name: KeraLua        
         path: lib\Release\net45
+    - name: Upload runtimes artifact
+      uses: actions/upload-artifact@v1.0.0
+      with:
+        name: Runtimes        
+        path: runtimes
