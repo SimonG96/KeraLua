@@ -22,7 +22,7 @@ jobs:
     - name: Build with dotnet
       run: dotnet msbuild KeraLua.sln -p:Configuration=Release
     - name: Pack nuget package
-      run: nuget pack KeraLua.nuspec
+      run: nuget pack KeraLua.nuspec -OutputDirectory lib\Release\net45
     - name: Upload KeraLua artifact
       uses: actions/upload-artifact@v1.0.0
       with:
